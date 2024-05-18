@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-18T15:15:07 IST" name="Suite" finished-at="2024-05-18T15:15:22 IST" duration-ms="15345">
+    <groups>
+    </groups>
+    <test started-at="2024-05-18T15:15:07 IST" name="Registration" finished-at="2024-05-18T15:15:22 IST" duration-ms="15345">
+      <class name="testComponents.BaseTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testComponents.BaseTest@70f02c32]" started-at="2024-05-18T15:15:07 IST" name="setUp" finished-at="2024-05-18T15:15:08 IST" duration-ms="1747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegistration()[pri:0, instance:testComponents.BaseTest@70f02c32]" started-at="2024-05-18T15:15:08 IST" name="testRegistration" finished-at="2024-05-18T15:15:17 IST" duration-ms="8469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testAPIResponse()[pri:1, instance:testComponents.BaseTest@70f02c32]" started-at="2024-05-18T15:15:17 IST" name="testAPIResponse" finished-at="2024-05-18T15:15:17 IST" depends-on-methods="testComponents.BaseTest.testRegistration" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAPIResponse -->
+        <test-method signature="testDB()[pri:2, instance:testComponents.BaseTest@70f02c32]" started-at="2024-05-18T15:15:17 IST" name="testDB" finished-at="2024-05-18T15:15:17 IST" depends-on-methods="testComponents.BaseTest.testAPIResponse" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDB -->
+        <test-method signature="testLogin()[pri:3, instance:testComponents.BaseTest@70f02c32]" started-at="2024-05-18T15:15:17 IST" name="testLogin" finished-at="2024-05-18T15:15:22 IST" depends-on-methods="testComponents.BaseTest.testRegistration" duration-ms="4656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testComponents.BaseTest@70f02c32]" started-at="2024-05-18T15:15:22 IST" name="tearDown" finished-at="2024-05-18T15:15:22 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testComponents.BaseTest -->
+    </test> <!-- Registration -->
+  </suite> <!-- Suite -->
+</testng-results>
